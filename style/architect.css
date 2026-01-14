@@ -217,6 +217,38 @@ main .containers{
     margin:0;
     font-size:3.5rem
 }
+
+#sponsors{
+    text-align: center;
+}
+#sponsors h1{
+    margin-bottom: 24px;
+}
+#sponsors p{
+    max-width: 542px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.sponsors-logo{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    filter: grayscale(100%);
+    /* gap: 20px; */
+    /* border: 2px solid black; */
+}
+/* .sponsors-logo div{
+    width: 100%;
+    border: 2px solid black;
+    margin: 0 auto;
+} */
+ /* .sponsors-logo div{
+    width: 60%;
+ }
+ .sponsors-logo img{
+    width: 100%;
+ } */
+
 .hide {
     display: none !important;
 }
@@ -267,6 +299,22 @@ main .containers{
         left: 50%;
         transform: translateX(-50%);
     }
+    #sponsors h1{
+    margin-bottom: 16px;
+    }
+    #sponsors p{
+        max-width: 542px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .sponsors-logo{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+     .sponsors-logo img{
+        width: 50%;
+        gap: 20px;
+     }
 }
 
 
